@@ -4,7 +4,9 @@ html {
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
-
+body{
+  background-repeat: no-repeat;
+}
 h1 {
   color: #fff;
   padding: 10px;
@@ -13,7 +15,7 @@ h1 {
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: #f0f4c3 ;
+  background: #E6E6FA ;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
