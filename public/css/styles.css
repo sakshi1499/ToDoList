@@ -3,10 +3,9 @@ html {
   background-image: -webkit-linear-gradient(60deg, #01579b   55%, #80cbc4   50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
-}
-body{
   background-repeat: no-repeat;
 }
+
 h1 {
   color: #fff;
   padding: 10px;
@@ -15,7 +14,7 @@ h1 {
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: #E6E6FA ;
+  background: white;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
