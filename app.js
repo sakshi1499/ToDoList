@@ -52,7 +52,7 @@ Item.find({},function(err,results){
 res.redirect("/");
   }
   else{
-    res.render("List", {kindofday : day , newListItems :results});
+    res.render("list", {kindofday : day , newListItems :results});
     }
   });
 });
