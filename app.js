@@ -114,7 +114,8 @@ app.post("/delete",function(req,res){
     });
   }
 });
-
-app.listen(process.env.PORT || 3000,function(){
-  console.log("Server is running");
-});
+let port = process.env.PORT;
+if(port== null || port == ""){
+  port = 8000;
+}
+app.listen(port)
